@@ -1,6 +1,6 @@
 {
     "name": "douglasanpa/lara-pdf-merger-php-7-2",
-    "description": "Forked from https://github.com/rfookune/lara-pdf-merger-php-7-2. Replaced continue to continue 2.",
+    "description": "Forked from https://github.com/rfookune/lara-pdf-merger-php-7-2. Replaced continue to break.",
     "keywords": ["merger","merge","pdf","manage","paginate", "laravel"],
     "license" : [
         "MIT"

@@ -4,7 +4,7 @@ Original written by Michael Musso https://github.com/LynX39 (https://github.com/
 
 ###Update
 
-Changed each() to foreach -> each() DEPRECATED in PHP 7.2 
+Forked from https://github.com/rfookune/lara-pdf-merger-php-7-2. Replaced continue to break.
   
 ## Installation
 
@@ -12,7 +12,7 @@ Changed each() to foreach -> each() DEPRECATED in PHP 7.2
 
 Require this package in your composer.json and update composer.
 
-    "rfookune/lara-pdf-merger-php-7-2": "dev-master",
+    "douglasanpa/lara-pdf-merger-php-7-2": "dev-master",
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
@@ -26,7 +26,7 @@ You can optionally use the facade for shorter code. Add this to your facades:
 
 ```php
 
-$pdf = new LynX39\LaraPdfMerger\PdfManage;
+$pdf = new \Nextek\LaraPdfMerger\PdfManage;;
 
 $pdf->addPDF('samplepdfs/one.pdf', '1, 3, 4');
 $pdf->addPDF('samplepdfs/two.pdf', '1-2');
